@@ -1,0 +1,152 @@
+.main-header {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 12px;
+  height: 8vh;
+}
+.sub-main-header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 50%;
+}
+.sub-main-header .appName {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-left: 6%;
+  font: bolder;
+  color: coral;
+}
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+.user-profile .icons {
+  display: flex;
+}
+.user-profile .icons .first-icon,
+.user-profile .icons .second-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+  cursor: pointer;
+}
+.user-profile .icons .chat-icon,
+.user-profile .icons .bell-icon {
+  position: relative;
+  top: 6px;
+  left: 6px;
+  font-size: 1.6rem;
+}
+.user-profile .profile {
+  display: flex;
+  align-items: center;
+}
+.user-profile .profile .third-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 30px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+  cursor: pointer;
+}
+.user-profile .profile .third-icon .user-icon {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+.InputContainer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  padding-left: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.input {
+  width: 400px;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+  caret-color: rgb(255, 81, 0);
+}
+
+.labelforsearch {
+  cursor: text;
+  padding: 0px 12px;
+}
+
+.searchIcon {
+  width: 13px;
+}
+
+.border {
+  height: 40%;
+  width: 1.3px;
+  background-color: rgb(223, 223, 223);
+}
+
+.micIcon {
+  width: 12px;
+}
+
+.micButton {
+  padding: 0px 15px 0px 12px;
+  border: none;
+  background-color: transparent;
+  height: 40px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.searchIcon path {
+  fill: rgb(114, 114, 114);
+}
+
+.micIcon path {
+  fill: rgb(255, 81, 0);
+}
+
+.micButton:hover {
+  background-color: rgb(255, 230, 230);
+  transition-duration: 0.3s;
+}
+.login-sign {
+  --bg: #000;
+  /* --hover-bg: #ff90e8; */
+  --hover-bg: coral;
+  --hover-text: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 0.5em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+}
+
+.login-sign:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem, -0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.login-sign:active {
+  transform: translate(0);
+  box-shadow: none;
+}
